@@ -1,0 +1,2 @@
+# numberseries
+Number Series App
