@@ -1,0 +1,33 @@
+#Name,First,Second,Third,Fourth,Fifth,Sixth,Seventh
+IncrementWithN,x1, x1+n,x2+n,x3+n,x4+n,x5+n,x6+n
+DecrementWithN,x1,x1-n,x2-n,x3-n,x4-n,x5-n,x6-n
+Square,x * x ,(x+1)*(x+1),(x+2)*(x+2),(x+3)*(x+3),(x+4)*(x+4),(x+5)*(x+5),(x+6)*(x+6)
+Cube,x * x * x,(x+1)*(x+1) * (x+1),(x+2)*(x+2)*(x+2),(x+3)*(x+3)*(x+3),(x+4)*(x+4)*(x+4),(x+5)*(x+5)*(x+5),(x+6)*(x+6)*(x+6)
+MultiplyByN,x1*n,(x+1) * n,(x+2) * n,(x+3) * n,(x+4) * n,(x + 5 ) * n,(x + 6 ) * n
+AlternateIncrease,x,x+5+n,x1+n,x2+n,x3+n,x4+n,x5+n
+AlterenateDecrease,x,x-5-n,x1-n,x2-n,x3-n,x4-n,x5-n
+AlternateIncDecr,x,x+100-n,x1+n,x2-n,x3+n,x4-n,x5+n
+SameneighbourIncr,x,x1,x2+n,x2+n,x3+n,x3+n,x5+n
+SameneighbourDecr,x,x1,x2-n,x2-n,x3-n,x3-n,x5-n
+IncrementAndAdd,x,n,x1+n,n+1,x3 + x4,n+2,x5+x6
+DecrementAndAdd,x,n,x1-x2,n+1,x3 - x4,n+2,x5-x6
+SumOfPrevious,x,x1,x2+x1,x3+x2,x4+x3,x5+x4,x6+x5
+Kolakoski,x,x1+n,x1+n,x1+5,x4+n,x4+n,x4+5
+TwoInSequence,x,x1,x1+n,x1+n,x3+n,x3+n,x5+n
+DecreasingThree,x,x-n,x2-n,x,x -n ,x2-n,x
+Tribonnaci,x,x1,x1+x2,x1+x2+x3,x2+x3+x4,x3+x4+x5,x4+x5+x6
+ThreeInSequence,x,x,x,x+n,x+n,x+n,x+n+n
+Factorial,x,x1*x1,x2*x1,x3*x2,x4*x3,x5*x4,x6*x5
+SameSameAdd,x,x,x1+x2,x+n,x+n,x4+x4,x4+n
+DecreasingN,x,x-1-n,x-2-n,x-3-n,x-4-n,x-5-n,x-6-n
+IncreasingN,x,x+1+n,x+2+n,x+3+n,x+4+n,x+5+n,x+6+n
+PowerSeries,x,x*x,x2*x,x3*x ,x4*x ,x5*x ,x6*x 
+Undulating,101,111,121,131,141,151,161
+Prime,2,3,5,7,11,13,17
+Prime1,19,23,29,31,37,41,47
+#SquareWithIncrement,x * x  + n,(x+1)*(x+1)  + n,(x+2)*(x+2) + n ,(x+3)*(x+3) + n,(x+4)*(x+4) + n,(x+5)*(x+5) + n,(x+6)*(x+6) + n
+#SquareWithDecrement,x * x  - n,(x+1)*(x+1)  - n,(x+2)*(x+2) - n ,(x+3)*(x+3) - n,(x+4)*(x+4) - n,(x+5)*(x+5) - n,(x+6)*(x+6) - n
+#CubeWithIncrement,x * x * x + n,(x+1)*(x+1) * (x+1) + n,(x+2)*(x+2)*(x+2) + n,(x+3)*(x+3)*(x+3) + n,(x+4)*(x+4)*(x+4) + n,(x+5)*(x+5)*(x+5) + n,(x+6)*(x+6)*(x+6) + n
+#CubeWithDecrement,x * x * x - n,(x+1)*(x+1) * (x+1) - n,(x+2)*(x+2)*(x+2) - n,(x+3)*(x+3)*(x+3) - n,(x+4)*(x+4)*(x+4) - n,(x+5)*(x+5)*(x+5) - n,(x+6)*(x+6)*(x+6) - n
+#PlusMultiply,x,(x+1) + n ,(x+2) * n,(x+3) + n,(x+4) * n,(x+5) + n,(x+6) * n
+#MinusMultiple,x,(x+1) - n ,(x+2) * n,(x+3) - n,(x+4) * n,(x+5) - n,(x+6) * n

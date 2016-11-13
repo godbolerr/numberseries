@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="quiz_levels">
+        <item>आसान</item>
+        <item>कठीन</item>
+        <item>बहोत कठीन</item>
+    </array>
+    <array name="quiz_levels_value">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </array>
+
+
+    <array name="lang_list_item_array">
+        <item>English</item>
+        <item>मराठी</item>
+        <item>हिंदी</item>
+    </array>
+    <array name="lang_list_item_array_value">
+        <item>en</item>
+        <item>mr</item>
+        <item>hi</item>
+    </array>
+
+</resources>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Number Series</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_include_decimal">Include Decimals ?</string>
+    <string name="pref_include_decimal_summary">Do you want series to include decimal values like 1.2, 3.05 ?
+    </string>
+
+    <string name="series_per_session">Questions for each round</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="difficulty_level">Difficulty Level</string>
+    <string-array name="difficulty_level_title">
+        <item>Simple</item>
+        <item>Medium</item>
+        <item>Complex</item>
+    </string-array>
+    <string-array name="difficulty_level_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="refresh_session">Refresh</string>
+    <string name="hello">Hello</string>
+    <string name="qString">Click one of the following values below for ?</string>
+
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="seriesText">Select the right answer for (*)</string>
+    <string name="selectText">Click on the right answer in place of ( * )</string>
+    <string-array name="series_per_session_titles">
+        <item>5 Questions</item>
+        <item>10 Questions</item>
+        <item>15 Questions</item>
+        <item>20 Questions</item>
+    </string-array>
+    <string-array name="series_per_session_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="title_activity_stat">StatActivity</string>
+
+
+</resources>

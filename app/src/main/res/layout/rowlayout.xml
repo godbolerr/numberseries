@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textStyle="bold"
+        android:layout_columnWeight="1"
+        android:id="@+id/seriesText"
+         android:layout_column="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:layout_columnWeight="1"
+        android:id="@+id/answerText"
+        android:layout_column="1"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_below="@+id/seriesText"
+        android:layout_alignLeft="@+id/seriesText"
+        android:layout_alignStart="@+id/seriesText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:textStyle="bold"
+        android:id="@+id/yourAnswerText"
+        android:layout_below="@+id/answerText"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_alignLeft="@+id/answerText"
+        android:layout_alignStart="@+id/answerText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/explanationText"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/yourAnswerText"
+        android:layout_alignLeft="@+id/yourAnswerText"
+        android:layout_alignStart="@+id/yourAnswerText" />
+
+</RelativeLayout>
